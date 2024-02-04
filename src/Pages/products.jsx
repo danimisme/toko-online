@@ -15,11 +15,6 @@ const ProductsPage = () => {
     });
   }, []);
 
-  const handleLogout = () => {
-    localStorage.removeItem("token");
-    window.location.href = "/login";
-  };
-
   return (
     <Fragment>
       <Navbar />
